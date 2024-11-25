@@ -6,7 +6,7 @@ class InfoView extends StatelessWidget {
 
   // Función para abrir la URL de GitHub
   Future<void> _launchGitHub() async {
-    final Uri url = Uri.parse('https://github.com/');
+    final Uri url = Uri.parse('https://github.com/BlackRubick/Recuperacion-moviles-2-');
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw 'No se pudo abrir el enlace $url';
     }
